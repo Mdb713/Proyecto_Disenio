@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bocatas</title>
+  <link rel="stylesheet" href="../../styles/bootstrap.css" />
+  <link rel="stylesheet" href="../../styles/custom.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark gap-3" style="background-color:black">
+      <div class="container-fluid d-flex align-items-center">
+
+        <div class="d-flex align-items-center">
+          <a href="index_es.html">
+            <img class="logo me-3" src="../../img/$R08XSAD.png" alt="Logotipo de Iberic Burgers">
+          </a>
+          <span class="navbar-text text-white d-none d-lg-inline">Tradición, sabor y calidad en cada bocado.</span>
+        </div>
+
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse grid gap-3" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="index_es.html">
+                <i class="bi bi-house"></i> Inicio
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Menú
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item text-white" href="tapas.html">Tapas</a></li>
+                <li><a class="dropdown-item text-white" href="hamburguesas.html">Hamburguesas</a></li>
+                <li><a class="dropdown-item text-white" href="bocatas.html">Bocadillos</a></li>
+                <li><a class="dropdown-item text-white" href="postres.html">Postres</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="bebida.html">Bebidas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contacto.html">Contactar</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Español <img class="leng-img" src="../../img/icons/es.png" alt="Idioma Español">
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end text-center">
+                <li class="d-flex justify-content-center">
+                  <a href="../en/index_en.html">Inglés</a> <img class="leng-img" src="../../img/icons/en.png"
+                    alt="Idioma Inglés">
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-2 mt-lg-0" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-dark" type="submit"><i class="bi bi-search" aria-label="Buscar"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="card text-bg-dark">
+      <img src="../../img/mejores-hamburguesas-madrid-nyburger-kvuB--1349x900@MujerHoy.jpg"
+        class="img-fluid port_img full-height-video " alt="Sandwich background image">
+      <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
+        <div class="title-container">
+          <div class="line"></div>
+          <h1 class="title-per">Sandwiches</h1>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-5">
+      <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pos1-tab" data-bs-toggle="tab" data-bs-target="#pos1-tab-pane"
+            type="button" role="tab" aria-controls="pos1-tab-pane" aria-selected="true">Squid Sandwich</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pos2-tab" data-bs-toggle="tab" data-bs-target="#pos2-tab-pane" type="button"
+            role="tab" aria-controls="pos2-tab-pane" aria-selected="false">Iberian Ham Sandwich</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pos3-tab" data-bs-toggle="tab" data-bs-target="#pos3-tab-pane" type="button"
+            role="tab" aria-controls="pos3-tab-pane" aria-selected="false">Bacon and Melted Cheese Sandwich</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pos4-tab" data-bs-toggle="tab" data-bs-target="#pos4-tab-pane" type="button"
+            role="tab" aria-controls="pos4-tab-pane" aria-selected="false">Pork Loin Sandwich</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pos5-tab" data-bs-toggle="tab" data-bs-target="#pos5-tab-pane" type="button"
+            role="tab" aria-controls="pos5-tab-pane" aria-selected="false">Iberian Ham and Mozzarella Sandwich</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pos6-tab" data-bs-toggle="tab" data-bs-target="#pos6-tab-pane" type="button"
+            role="tab" aria-controls="pos6-tab-pane" aria-selected="false">Iberian Paleta Sandwich</button>
+        </li>
+      </ul>
+      <div class="tab-content mt-4" id="myTabContent">
+        <div class="tab-pane fade show active text-light" id="pos1-tab-pane" role="tabpanel" aria-labelledby="pos1-tab"
+          tabindex="0">
+          <div class="card card-page h-100">
+            <img src="../../img/Bocata-de-calamares2c-Los-Galayos.jpg" class="card-img-top img-fluid rounded-top"
+              alt="Squid Sandwich">
+            <div class="card-body text-center">
+              <h2 class="card-title">Squid Sandwich</h2>
+              <p class="card-text">The classic Madrid sandwich reinvented. Crispy rustic bread with perfectly fried squid rings.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-trigger="focus"
+                data-bs-content="6,50€" tabindex="0">
+                View price
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade show text-light" id="pos2-tab-pane" role="tabpanel" aria-labelledby="pos2-tab"
+          tabindex="0">
+          <div class="card card-page h-100">
+            <img src="../../img/bocadillo-jamon-iberico.jpg" class="card-img-top img-fluid rounded-top"
+              alt="Iberian Ham Sandwich">
+            <div class="card-body text-center">
+              <h2 class="card-title">Iberian Ham Sandwich</h2>
+              <p class="card-text">An authentic Spanish delicacy. Freshly baked crispy bread filled with thin slices of acorn-fed Iberian ham and fresh tomato slices.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-trigger="focus"
+                data-bs-content="7,50€" tabindex="0">
+                View price
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade show text-light" id="pos3-tab-pane" role="tabpanel" aria-labelledby="pos3-tab"
+          tabindex="0">
+          <div class="card card-page h-100">
+            <img src="../../img/1707842821635.jpeg" class="card-img-top img-fluid rounded-top"
+              alt="Bacon and Melted Cheese Sandwich">
+            <div class="card-body text-center">
+              <h2 class="card-title">Bacon and Melted Cheese Sandwich</h2>
+              <p class="card-text">An irresistible sandwich that combines the best of both worlds.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-trigger="focus"
+                data-bs-content="6,00€" tabindex="0">
+                View price
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade show text-light" id="pos4-tab-pane" role="tabpanel" aria-labelledby="pos4-tab"
+          tabindex="0">
+          <div class="card card-page h-100">
+            <img src="../../img/Captura de pantalla 2024-10-07 154723.png" class="card-img-top img-fluid rounded-top"
+              alt="Pork Loin Sandwich">
+            <div class="card-body text-center">
+              <h2 class="card-title">Pork Loin Sandwich with Peppers</h2>
+              <p class="card-text">A classic pork loin sandwich with peppers.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-trigger="focus"
+                data-bs-content="7,50€" tabindex="0">
+                View price
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade show text-light" id="pos5-tab-pane" role="tabpanel" aria-labelledby="pos5-tab"
+          tabindex="0">
+          <div class="card card-page h-100">
+            <img src="../../img/Captura de pantalla 2024-10-08 121244.png" class="card-img-top img-fluid rounded-top"
+              alt="Iberian Ham and Mozzarella Sandwich">
+            <div class="card-body text-center">
+              <h2 class="card-title">Iberian Ham and Mozzarella Sandwich</h2>
+              <p class="card-text">A delicate balance between the richness of smoked ham and the freshness of Italian cheese.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-trigger="focus"
+                data-bs-content="9,00€" tabindex="0">
+                View price
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade show text-light" id="pos6-tab-pane" role="tabpanel" aria-labelledby="pos6-tab"
+          tabindex="0">
+          <div class="card card-page h-100">
+            <img src="../../img/Sandwich-de-jamon-iberico.jpg" class="card-img-top img-fluid rounded-top"
+              alt="Iberian Paleta Sandwich">
+            <div class="card-body text-center">
+              <h2 class="card-title">Iberian Paleta Sandwich</h2>
+              <p class="card-text">A perfect combination of mild flavors with the unique touch of Iberian paleta.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-trigger="focus"
+                data-bs-content="8,00€" tabindex="0">
+                View price
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-white py-4 bgcolor-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center text-md-start">
+          <h3 class="fw-bold">Iberic Burgers</h3>
+          <p class="mb-0">
+            The best burgers in your city. Tradition, flavor, and quality in every bite.
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h4 class="fw-bold">Links</h4>
+            <ul class="list-unstyled">
+              <li><a href="index_es.html" class="text-white text-decoration-none">Home</a></li>
+              <li><a href="bebida.html" class="text-white text-decoration-none">Drinks</a></li>
+              <li><a href="contacto.html" class="text-white text-decoration-none">Contact</a></li>
+            </ul>
+        </div>
+        <div class="col-md-4 text-center text-md-end">
+          <h4 class="fw-bold">Follow Us</h4>
+            <div>
+              <a href="https://www.facebook.com" class="text-white me-3" target="_blank">
+                <i class="bi bi-facebook"></i>
+                <span class="visually-hidden">Facebook</span>
+              </a>
+              <a href="https://www.instagram.com" class="text-white me-3" target="_blank">
+                <i class="bi bi-instagram"></i>
+                <span class="visually-hidden">Instagram</span>
+              </a>
+              <a href="https://www.twitter.com" class="text-white" target="_blank">
+                <i class="bi bi-twitter"></i>
+                <span class="visually-hidden">Twitter</span>
+              </a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Se inicializan los popovers para poder usarlos -->
+  <script>
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+  </script>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,273 @@
+@import '../bootstrap/scss/bootstrap.scss';
+
+/* Logo */
+.logo {
+    width: 50px;
+    border-radius: 35px;
+}
+.title-per {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem; /* Tamaño grande */
+    color: #ffffff; /* Color del texto */
+    margin-top: 20px;
+  }
+/* Fondo y colores generales */
+body {
+    background-color: #222222;
+
+    .full-height-video {
+        height: 80vh;
+        object-fit: cover;
+    }
+
+    .navbar {
+        transition: background-color 0.5s ease;
+
+        &.scrolled {
+            background-color: #181818;
+        }
+    }
+}
+
+/* Enlaces de navegación */
+ul li a, li a i {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #999;
+}
+
+.dropdown-menu {
+    background-color: rgb(48, 48, 48);
+}
+
+.leng-img {
+    height: 30px;
+}
+
+/* Contenedores */
+.container {
+    min-height: 20vh;
+}
+
+.card-interes {
+    max-width: 100%; 
+    width: 100%;
+    background-color: transparent; 
+}
+
+.card-img {
+    height: 300px; 
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Footer */
+.bgcolor-footer {
+    background-color: black;
+}
+
+/* Formularios */
+.form-horizontal .form-group {
+    margin-bottom: 1.5rem; 
+}
+
+.form-horizontal input,
+.form-horizontal textarea {
+    margin-bottom: 1rem;
+}
+
+form {
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.line {
+    width: 50%;
+    height: 2px;
+    background-color: #fff;
+    margin: 1rem auto;
+}
+
+
+.title-container {
+    text-align: center; 
+    width: 100%; 
+    position: relative;
+}
+
+.title {
+    font-family: 'Metropolis', sans-serif; 
+    font-size: 3rem; 
+    font-weight: 700; 
+    color: #fff;
+    margin: 10px 0; 
+}
+
+.line {
+    width: 80%;
+    max-width: 400px;
+    height: 1px; 
+    background-color: #fff; 
+    margin: 0 auto; 
+}
+
+
+.full-height-video {
+    height: 100vh; 
+    object-fit: cover; 
+}
+
+.overlay {
+    position: relative;
+}
+
+
+.map-container {
+    margin-top: 2rem;
+}
+
+.restaurant-details {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Carrusel */
+.carousel .card img {
+    height: 100%; 
+    width: 100%;
+    object-fit: cover; 
+}
+.carousel-margen{
+    margin: 0;
+    padding: 0;
+}
+.carousel .card {
+    width: 500px;
+    color: #fff;
+    background-color: #222222;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Línea decorativa */
+.linea {
+    margin: 0 20px;
+    width: 90px;    
+    border-top: 1px solid #999;
+    position: relative;
+    top: 10px;
+    float: left;
+}
+.line {
+  width: 90%;
+  max-width: 500px; /* Ajustar según sea necesario */
+  height: 1px;
+  background-color: #fff;
+  margin: 1rem auto;
+}
+
+.category-title {
+    color: #bb843d;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+  }
+
+  .menu-item {
+    padding: 8px 0;
+    border-bottom: 1px dotted #ccc;
+  }
+
+  .menu-item:last-child {
+    border-bottom: none;
+  }
+
+  .menu-item-name {
+    font-weight: bold;
+  }
+
+  .menu-item-description {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #c9c9c9;
+  }
+
+  .menu-item-price {
+    font-size: 1rem;
+    color: #c9c9c9;
+  }
+
+.menu-section {
+    background-color: #333333;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 2px solid #5a3f1d;
+}
+
+/* Estilo de las secciones cuando hay borde */
+.menu-section .category-title {
+    border-bottom: 2px solid #5a3f1d;
+    padding-bottom: 10px;
+}
+.card-page {
+    background-color: #212529; /* Fondo oscuro */
+    border: none; /* Sin bordes */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  }
+
+  /* Imagen de la tarjeta */
+  .card-img-top {
+    width: 700px; /* Ancho personalizado */
+    height: 400px; /* Altura personalizada */
+    object-fit: cover; /* Mantiene proporción sin distorsión */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0 auto; /* Centra horizontalmente */
+    display: block; /* Asegura que sea tratada como bloque */
+  }
+
+  /* Títulos */
+  .card-title {
+    font-size: 1.5rem; /* Tamaño de fuente */
+    color: #f8f9fa; /* Color blanco */
+  }
+
+  /* Texto */
+  .card-text {
+    color: #adb5bd; /* Gris claro */
+    font-size: 1rem;
+  }
+
+
+  /* Pestañas */
+  .nav-tabs .nav-link {
+    color: #adb5bd; /* Gris claro */
+    font-size: 1.2rem; /* Tamaño de texto */
+    border: none; /* Sin bordes */
+    margin-right: 10px; /* Espaciado entre pestañas */
+    transition: color 0.3s;
+  }
+
+  .nav-tabs .nav-link.active {
+    color: #f8f9fa; /* Blanco */
+    background-color: #343a40; /* Fondo oscuro para la activa */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+
+  .tab-content {
+    margin-top: 20px; /* Espaciado con respecto a las pestañas */
+  }
+  
